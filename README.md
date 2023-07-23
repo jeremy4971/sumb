@@ -15,12 +15,12 @@ SUMB is provided ‘AS IS’ and serves more as a proof of concept than anything
 
 [Download SUMB-Plugin-1.0.pkg](https://github.com/jeremybessard/sumb/releases/tag/1.0) – [Source code](https://github.com/jeremybessard/sumb/blob/main/sumb.10m.sh) | SHA1 : b244cc18686745070c1f3ba8ca97c183bdb01925
 
+**In ⚙️ > Packages**, give SwiftBar-1.5.0.pkg higher **Priority** so that it installs before SUMB.
+
 Create a Jamf Policy :
 - Trigger : Check-in
 - Frequency : Once per computer
 - Payload : Packages
-
-**In ⚙️ > Packages**, give SwiftBar-1.5.0.pkg higher **Priority** so that it installs before SUMB.
 
 ### 2. Create a jamf-api account
 
