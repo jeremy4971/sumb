@@ -11,11 +11,9 @@ SUMB is provided ‘AS IS’ and serves more as a proof of concept than anything
 
 ### 1. Deploy SwiftBar and SUMB-Plugin
 
-[Download SwiftBar-1.5.0.pk](https://github.com/jeremybessard/sumb/releases/tag/1.0)[g](https://clementine.la/scripts/scheduled-updates-menu-bar-sumb/#) (or make [your own pkg](https://github.com/swiftbar/SwiftBar) and install it in the /Applications folder)
-SHA1 : 9209284d165554cf121f4670eaac515482a06bc0
+[Download SwiftBar-1.5.0.pk](https://github.com/jeremybessard/sumb/releases/tag/1.0)[g](https://clementine.la/scripts/scheduled-updates-menu-bar-sumb/#) (or make [your own pkg](https://github.com/swiftbar/SwiftBar) and install it in the /Applications folder) | SHA1 : 9209284d165554cf121f4670eaac515482a06bc0
 
-[Download SUMB-Plugin-1.0.pkg](https://github.com/jeremybessard/sumb/releases/tag/1.0) – [Source code](https://github.com/jeremybessard/sumb/blob/main/sumb.10m.sh)
-SHA1 : b244cc18686745070c1f3ba8ca97c183bdb01925
+[Download SUMB-Plugin-1.0.pkg](https://github.com/jeremybessard/sumb/releases/tag/1.0) – [Source code](https://github.com/jeremybessard/sumb/blob/main/sumb.10m.sh) | SHA1 : b244cc18686745070c1f3ba8ca97c183bdb01925
 
 Create a Jamf Policy :
 - Trigger : Check-in
@@ -31,7 +29,8 @@ Create a Jamf Policy :
 ### 3. Deploy SUMB-API script
 
 [Download SUMB-API.sh](https://github.com/jeremybessard/sumb/blob/main/sumb_api.sh)
-In ⚙️ > Scripts : Add the script and edit it with your Jamf Pro URL, username (jamf-api) and password.
+
+**In ⚙️ > Scripts** : Add the script and edit it with your Jamf Pro URL, username (jamf-api) and password.
 
 Create a Jamf Policy
 - Trigger : Check-in
