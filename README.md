@@ -1,5 +1,5 @@
 # Scheduled Updates Menu Bar, aka SUMB (Jamf only)
-<img width="314" alt="sumb-menu" src="https://github.com/jeremybessard/sumb/assets/53154185/0dc2c98d-4c1a-4c28-90ae-c32bae170060">
+![sumbmenu](https://github.com/jeremybessard/sumb/assets/53154185/42365460-3880-4158-a351-a1b790e4ed9e)
 
 I made something I call the [NoMAD menu](https://clementine.la/wp-content/uploads/2023/07/nomad-menu.png) for macOS updates. It provides information about the status of a MDM scheduled update and the remaining number of allowed deferrals before the Mac force-installs a system update.
 
