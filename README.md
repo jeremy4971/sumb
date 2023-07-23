@@ -1,4 +1,6 @@
 # Scheduled Updates Menu Bar, aka SUMB (Jamf only)
+<img width="314" alt="sumb-menu" src="https://github.com/jeremybessard/sumb/assets/53154185/0dc2c98d-4c1a-4c28-90ae-c32bae170060">
+
 I made something I call the NoMAD menu for macOS updates. It provides information about the status of an MDM scheduled update and the remaining number of allowed deferrals before the Mac force-installs a system update.
 
 The recommended method by Apple or Jamf for mass updates with user deferrals is not clear as to why the MDM command often fails. It could be related to network issues, disk space, or even battery status. I’m aware of cool tools like Nudge or SUPER, which I have used in the past with great results! However, I find them a bit challenging to set up correctly, and they don’t work in conjunction with the MDM update command.
