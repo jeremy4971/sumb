@@ -22,9 +22,14 @@ Create a Jamf Policy :
 - Frequency : Once per computer
 - Payload : Packages
 
+![jamf-policy-1024x681](https://github.com/jeremybessard/sumb/assets/53154185/dc04b5f7-6a46-4aab-b96b-059a48e489c5)
+
 ### 2. Create a jamf-api account
 
 **In ⚙️ > User accounts and groups** : create an account named « jamf-api » with the bare minimum permissions. We only need to check READ for the Computers row.
+
+![jamf-api](https://github.com/jeremybessard/sumb/assets/53154185/79cc11b6-15c8-4ee9-b4a2-de81ce2c9172)
+
 
 ### 3. Deploy SUMB-API script
 
