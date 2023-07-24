@@ -13,7 +13,7 @@ SUMB is provided ‘AS IS’ and serves more as a proof of concept than anything
 
 [Download SwiftBar-1.5.0.pk](https://github.com/jeremybessard/sumb/releases/tag/1.0)[g](https://clementine.la/scripts/scheduled-updates-menu-bar-sumb/#) (or make [your own pkg](https://github.com/swiftbar/SwiftBar) and install it in the /Applications folder) | SHA1 : 9209284d165554cf121f4670eaac515482a06bc0
 
-[Download SUMB-Plugin-1.0.pkg](https://github.com/jeremybessard/sumb/releases/tag/1.0) – [Source code](https://github.com/jeremybessard/sumb/blob/main/sumb.10m.sh) | SHA1 : b244cc18686745070c1f3ba8ca97c183bdb01925
+[Download SUMB-Plugin-1.01.pkg](https://github.com/jeremybessard/sumb/releases/tag/1.0) – [Source code](https://github.com/jeremybessard/sumb/blob/main/sumb.10m.sh) | SHA1 : 4088d0814ec49903ef2b5ffe48c260f4138ce635
 
 **In ⚙️ > Packages**, give SwiftBar-1.5.0.pkg higher **Priority** so that it installs before SUMB.
 
