@@ -56,3 +56,5 @@ To begin, send an MDM update command with 5 deferrals.
 Wait something like 20 minutes and execute the SUMB-API policy on Mary’s computer (flush it if it has been run before). This script will generate an app.sumb.managedsoftwareupdate.plist file in the /Shared/sumb folder, which will contain the status of the update command. A countdown to 5 should appear in the menu bar. Then every day, the SUMB-API script will update the deferrals remaining number.
 
 During my tests, sending an other MDM update command while the previous one is still in progress confuses the update and deferral processes.
+
+<img width="797" alt="Screenshot 2023-07-24 at 22 54 59" src="https://github.com/jeremybessard/sumb/assets/53154185/d035cb0c-e2cc-4216-af26-e530df9dff52">
