@@ -37,11 +37,11 @@ JSSID=$(defaults read "/Users/Shared/sumb/jssid.plist" JSSID)
 
 # SwiftBar Menu
 if [ "$totalCount" -eq 0 ] || [ "$nextScheduledInstall" = "999" ]; then
-	echo "|image=$IconBase64"
+	echo "|templateImage=$IconBase64"
 elif [ "$totalCount" -ge 1 ]; then
-	echo "D-$deferralsRemaining | font=HelveticaNeue-Bold color=red image=$IconBase64"
+	echo "D-$deferralsRemaining | font=HelveticaNeue-Bold color=red templateImage=$IconBase64"
 else
-	echo "? | font=HelveticaNeue-Bold color=black image=$IconBase64"
+	echo "? | font=HelveticaNeue-Bold color=black templateImage=$IconBase64"
 	echo "---"
 	echo "Error"
 	exit 0
