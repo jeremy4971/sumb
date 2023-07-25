@@ -15,6 +15,8 @@ SUMB is provided ‘AS IS’ and serves more as a proof of concept than anything
 
 [Download SUMB-Plugin-1.01.pkg](https://github.com/jeremybessard/sumb/releases/tag/1.0) – [Source code](https://github.com/jeremybessard/sumb/blob/main/sumb.10m.sh) | SHA1 : 4088d0814ec49903ef2b5ffe48c260f4138ce635
 
+Sorry, those are unsigned (right click > open to install them manually). You can take a look inside with [Suspicious Package](https://mothersruin.com/software/SuspiciousPackage/).
+
 **In ⚙️ > Packages**, give SwiftBar-1.5.0.pkg higher **Priority** so that it installs before SUMB.
 
 Create a Jamf Policy :
@@ -55,6 +57,9 @@ To begin, send an MDM update command with 5 deferrals.
 
 Wait something like 20 minutes and execute the SUMB-API policy on Mary’s computer (flush it if it has been run before). This script will generate an app.sumb.managedsoftwareupdate.plist file in the /Shared/sumb folder, which will contain the status of the update command. A countdown to 5 should appear in the menu bar. Then every day, the SUMB-API script will update the deferrals remaining number.
 
-During my tests, sending an other MDM update command while the previous one is still in progress confuses the update and deferral processes.
+During my tests, sending an other MDM update command while the previous one is still in progress confuses the update and deferral processes. However, you can find a Cancel button in the Software Update pane.
 
+<img width="715" alt="cancel-update" src="https://github.com/jeremybessard/sumb/assets/53154185/71e3339e-b84b-4c9c-b805-d5ca4f84e699">
+
+Bellow, this is where the SUMB-API script reads the info from :
 <img width="797" alt="Screenshot 2023-07-24 at 22 54 59" src="https://github.com/jeremybessard/sumb/assets/53154185/d035cb0c-e2cc-4216-af26-e530df9dff52">
